@@ -76,8 +76,9 @@ var data=[
        button.style.fontSize="20";
 
        box.append(image,name,desc,button);
-       box.style.border="1px solid black";
-
+    //    box.style.border="1px solid black";
+       box.style.boxShadow=" rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px";
+        box.style.padding="10px";
 
        main.append(box);
     })
