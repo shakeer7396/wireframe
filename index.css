@@ -1,0 +1,106 @@
+.navbar{
+    height:60px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.logo{
+    margin-left: 18px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.category{
+    display:flex;
+    justify-content: space-evenly;
+    width:25%;
+    margin:auto;
+    margin-right: 18px;
+    font-size: 20px;
+
+}
+.btn{
+    margin:auto;
+    font-size: 20px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    background-color: whitesmoke;
+    width:80px;
+    height:30px;
+    color:blue;
+}
+.titlesec{
+   width:100%;
+   height:400px;
+   margin-top: 35px;
+   background-color: rgb(41, 41, 173);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+.title{
+    width:320px;
+    height:80px;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+.titledesc{
+    width:40%;
+    height:100px;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+.title-btn{
+    width:30%;
+    height:50px;
+    display:flex;
+    justify-content: center;
+}
+.title-btn > button{
+    margin: auto;
+    width:120px;
+    height:50px;
+    border-radius: 8px;
+    font-size: 18px;
+    border-color: white;
+    margin-top: 25px;
+}
+.class-sec{
+    width:100%;
+    height:150px;
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.class-title{
+    text-align: center;
+    font-size: 55px;
+}
+.class-desc{
+    font-size: 25px;
+    margin-top: -18px;
+}
+
+#main{
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    margin-top: 50px;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    color:brown;
+    margin:0px 20px 0px 20px;
+    font-size: 20px;
+}
